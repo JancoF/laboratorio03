@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Flores</title>
+    <link rel="icon" href="logo.png"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flores.css">
+    <script src="flores.js"></script>
+
+</head>
+   
+<body>
+    <nav>
+        <img src="mi-logo.png" width="100" height="100" alt="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="#"> Inicio</a></li>
+            <li><a href="#presentacion">Presentación</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#col1">Pasiones</a></li>
+            <li><a href="#col2">Tecnología</a></li>
+            <li><a href="#col3">Formación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+   <article>
+      <div class="fondo">
+        <video src="portadaF.mp4" autoplay playinline loop muted preload="auto" width="100%" height="100%"></video>
+      </div>
+   </article> 
+
+    <div id="presentacion" style="margin-left: 25px;">
+        <h2>PRESENTACION</h2>
+        <p></p>
+        <p>Hola, mi nombre es Noe Flores Gutierrez, y soy estudiante de programación, apasionado por la tecnología y desarrollo de software. Me encanta trabajar en proyectos de programación y ver que mis ideas cobran vida en forma de código. Desde pequeño he tenido la curiosidad inata por la tecnología, como funcionan las cosas y cómo se puede mejorar.</p>
+        <p>Actualmente, estoy estudiando la carrera de Diseño y Desarrollo de Software  y estoy emocionado de poder aplicar mis conocimientos en el mundo real a través de proyectos desafiantes. Me gusta aprender de las últimas tendencias en tecnología y mantenerme actualizado sobre los avances en la programación. Tengo experiencia trabajando en HTML, Css, Javasprit, Oracle, sistemas operativos, y también estoy dispuesto a aprender nuevos lenguajes y tecnologías.</p>
+        <p>Mi objetivo como estudiante de programación es convertirme en un desarrollador de software altamente competente y creativo que pueda contribuir significativamente al mundo de la tecnología. Estoy emocionado de ver lo que el futuro me depara y espero trabajar en proyectos desafiantes y emocionantes.</p>
+    </div>
+
+
+  <main>
+      <div id="formacion">
+         <H2><em>FORMACION EN CURSO</em></H2>
+          <p>Diseño y Desarrollo de Sofware </p>
+         <p>Institución: Tecsup, Arequipa, Perú</p>
+         <p>Duración: Marzo 2023 - Actualidad</p>
+         <p></p>
+         <p> <b><em>Cursos: </em></b> </p>
+         <ul>
+             <li>Sistemas Operativos </li>
+             <li>Desarrollo de Aplicaciones en Internet</li>
+             <li>Estructura de Datos y Algoritmos</li>
+             <li>Ingeniería de Requirimientos y Diseño de Software</li>
+             <li>Calidad y Mejora Continua</li>
+             <li>Base de Datos Avanzados</li>
+          </ul>
+          <p></p>
+          <p> <b><em>Habilidades Adqueridas:</em></b> </p>
+          <ol>
+               <li>Utilización de herramientas de manejo de base de datos como Oracle, Sql Developer, MySql, MongoDB</li>
+                <li>Conocimiento en lenguajes de programación como Java, Python, JavaScript</li>
+                 <li>Programación de aplicaciones con una interfaz de usuario atractiva y fácil de usar</li>
+           </ol>
+           <p></p>
+             <p> <b><em>Experiencia:</em></b> </p>
+             <ul>
+             <li>Desarrollo de una página web para el proyecto final de la materia "Programación Orienda en Objetos", actualmente en progreso.</li>
+             <p> Además de programas educativos formales, también hice cursos en línea y recursos en línea para aprender habilidades específicas de programación de software. En plataformas como: Udemy, Platzi y Hotmart.</p>
+             <p>Fecha de finalización esperada: Diciembre 2024</p>
+             <p>Estas habilidades me han permitido trabajar en proyectos internacionales y colaborar con equipos de trabajo de diferentes países y culturas. Creo que el conocimiento de idiomas es fundamental en un mundo cada vez más globalizado y conectado.</p>
+       </div>
+        <div class="columnas" >
+            
+     
+              <div class="columna" id="col1" >
+		         <h3>TECNOLOGIAS Y LENGUAJES</h3>
+		            <ol>
+                     <li>Lenguajes de programación: Java, Python, JavaScript</li>
+                     <li>Herramientas: Git, Oracle, Visual Studio Code</li>
+                     <li>Sistemas operativos: Windows, Linux</li>
+                    </ol>
+	
+	           </div>
+
+	          <div class="columna" id="col2">
+		            <h3> PASIONES</h3>
+                    <ul>
+                       <li>Me gusta explorar nuevos lenguajes de programación y herramientas.</li>
+                        <li>Me gusta aprender a través de cursos en línea, tutorías y proyectos personales.</li>
+                        <li>Poseo de habilidades en la programación en diferentes áreas como desarrollo web, aplicaciones móviles, juegos, inteligencia artificial, entre otros.</li>
+                        <li>Estoy a la guanguadia en mantenerse actualizados sobre los últimos avances en el campo. </li>
+                        <li>Estoy interesado en trabajar en proyectos que tengan un impacto positivo en la sociedad o en el medio ambiente. </li>
+                    </ul>
+	          </div>
+
+	          <div class="columna" id="col3">
+		              <h3> IDIOMAS</h3>
+                        <ul>
+                         <li>Aymara: Lengua materna</li>
+                          <li>Español: Segunda lengua</li>
+                          <li>Inglés: Nivel básico </li>
+                       </ul>	
+              </div>
+           
+        </div>
+    </main>
+
+
+   <article>
+       <div id="contacto" >
+        <h2 style="text-align: center;" >Formulario de Contacto</h2>
+        <form action="enviar.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+    
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    
+          <input type="submit" value="Enviar">
+        </form>
+       </div>
+   </article>
+
+
+   <footer>
+    <p><p> &copy; Noe Flores 2023</p></p>
+   </footer>
+
+ </body>
+</html> 
